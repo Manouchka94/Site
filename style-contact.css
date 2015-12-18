@@ -1,0 +1,113 @@
+/***************************************	PAGE	*************************************************/
+
+#page_format{
+	background-color : initial;
+	border : none;
+}
+
+/***************************************	Section	*************************************************/
+
+#form_contact {
+    width: 500px;
+    display: block;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left : auto;
+	margin-right : auto;
+	
+	border: 1px solid #000;
+	border-radius: 15px;
+	background-color: rgba(165, 247, 254, 0.27);
+	
+	padding-left : 25px;
+	padding-right : 25px;
+	padding-bottom : 25px;
+	
+	text-align: justify;
+}
+
+/***************************************	FORM	*************************************************/
+
+label{
+	
+	font-weight: bold;
+ 	float : left;
+	clear : both;
+	width: auto;
+	margin-bottom : 10px;
+
+}
+
+form input, textarea{
+	
+	width : 230px;
+	float: right;
+	margin-bottom : 10px;
+	
+}
+
+#message{
+	
+	height : 100px;
+	width : 230px;
+	
+}
+
+input:required, textarea:required{
+	
+	border : 3px solid green;
+	/*border-radius : 5px;
+	background-color : #163D69;
+	color : white;*/
+	
+}
+
+input:focus, textarea:focus{
+	
+	border : 3px solid black;
+	border-radius : 5px;
+	background-color : #163D69;
+	color : white;
+	
+}
+
+textarea{
+	
+	width: 200px;
+	margin-bottom : 10px;
+}
+
+#form_contact h1{
+	
+	/*text-decoration : underline;*/
+	margin-top: 0px;
+	margin-bottom: 25px;
+	color: #163D69;
+	
+}
+
+fieldset{
+	padding-top: 15px;
+	border: 3px solid #163D69;
+	width : 80%;
+}
+
+legend{
+	color : #163D69;
+	font-size : 20px;
+}
+
+#but_submit{
+	
+	/*float : left;*/
+	clear : both;
+	margin-left : 20px;
+	margin-right : auto;
+	align : left;
+	
+}
+
+#obligatoire{
+	float : left;
+}

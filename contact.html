@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<title>DRECQ Emmanuel CV</title>
+	<link rel="stylesheet" href="style-general.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style-contact.css" type="text/css" media="screen" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+		</script>
+	<![endif]--> 
+</head>
+
+<body>
+	<header>
+		<h1><a href="index.html">Emmanuel DRECQ</a></h1>
+		<nav>
+			<ul>
+				<li id="first_li"><a href="index.html">Accueil</a></li>
+				<li><a href="cv.html">CV</a>
+					<ul>
+						<li class="sous_menu_cv"><a href="exp pro.html">Expérience Professionnelle</a></li>
+						<li class="sous_menu_cv"><a href="formation.html">Formation</a></li>
+						<li class="sous_menu_cv"><a href="#">Loisirs</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html" id="en_cours">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="page_format">
+		<section id="form_contact">
+			<h1 id="h1_underline"> Pour me contacter : </h1>
+		
+			<form method="post" action="">
+				<fieldset>
+					<legend>Vos informations</legend>
+					
+						<label for="nom"> Login (*) : </label>
+						<input type="text" name="nom" id="nom" placeholder="Votre nom" required/>
+						
+						<p>
+							<label for="email"> Email (*) : </label>
+							<input type="email" name="email" id="email" placeholder="Votre email" required/>
+						</p>
+						
+						<p>
+							<label for="tel"> Téléphone : </label>
+							<input type="tel" name="tel" id="tel" placeholder="Votre téléphone"/>
+						</p>
+
+						<p>
+							<label for="message">Message (*) : </label>
+							<textarea name="message" id="message" size="30" placeholder="Saisir votre message" required></textarea>
+						</p>
+						
+						<p id="obligatoire">* = champ obligatoire</p>
+						<input type="submit" name="submit" id="but_submit" value="Envoyer"/>
+						
+				</fieldset>
+			</form>
+		</section>
+	</div>
+</body>

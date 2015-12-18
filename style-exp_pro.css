@@ -1,0 +1,11 @@
+/***************************************	MAIN aside	*************************************************/
+
+#detail_article{
+	display : inline-block;
+	width : 40%;
+	font-weight : bold;
+	margin-top : 10px;
+	margin-bottom : 5px;
+	margin-left : 10px;
+	font-size : 0.9em;
+}

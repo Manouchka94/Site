@@ -1,0 +1,74 @@
+
+/***************************************	HEADER	*************************************************/
+
+#image_header {
+	width: 900px;
+	height: 200px;
+	background: transparent url("images/salle_serveur.jpg") no-repeat scroll 0% 0%;
+	clear: left;
+}
+
+@media all and (max-width :380px) {
+	#image_header{
+		display : none;
+	}
+}
+
+/***************************************	MAIN section	*************************************************/
+
+#article_index {
+	width: 500px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left : 20px;
+	margin-right : 10px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	background-color: rgba(165, 247, 254, 0.27);
+	padding-left : 25px;
+	padding-right : 25px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+#article_index  p{
+	display : block;
+	width : initial;
+	padding-left : initial;
+}
+
+/***************************************	MAIN aside	*************************************************/
+
+#aside_index{
+	display : inline-block;
+	width : 300px;
+	border : 1px solid black;
+	border-radius: 10px;
+	margin-top : 10px;
+	background-color: rgba(76, 76, 227, 0.46);
+}
+
+/***************************************	FOOTER	*************************************************/
+
+.aside_footer{
+	width: 250px;
+	border: 3px solid #000;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#aside_1 {
+	background-color: rgba(0, 66, 255, 0.7);
+}
+
+#aside_2 {
+	background-color: rgba(0, 66, 255, 0.28);
+}
+
+#aside_3 {
+	background-color: rgba(0, 66, 255, 0.36);
+}
+
+
